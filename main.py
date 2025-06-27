@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from discord.ext import commands, tasks
 from keep_alive import keep_alive
 
-# --- CONFIGURATION ---
+# Config
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD_ID = 950063903394631710
@@ -51,7 +51,6 @@ ROLE_EXPIRATIONS_FILE = "role_expirations.json"
 
 
 # --- DATA HANDLING FUNCTIONS ---
-# (No changes in this section)
 def load_cooldowns():
     try:
         with open(COOLDOWN_FILE, 'r') as f:
@@ -122,7 +121,6 @@ class RandomRoleView(discord.ui.View):
 
     def __init__(self):
         super().__init__(timeout=None)
-        # self.cooldowns is no longer loaded here to prevent the race condition bug.
 
     @discord.ui.button(label="Try Your Luck!",
                        style=discord.ButtonStyle.danger,
@@ -134,7 +132,6 @@ class RandomRoleView(discord.ui.View):
             user = interaction.user
             user_id_str = str(user.id)
 
-            ### --- FIX #1: LOAD COOLDOWNS AT THE MOMENT OF THE CLICK --- ###
             cooldowns = load_cooldowns()
 
             if user_id_str in cooldowns:
@@ -173,7 +170,6 @@ class RandomRoleView(discord.ui.View):
                 await user.add_roles(role_to_add,
                                      reason="Daily random role assignment")
 
-                # Update cooldowns with the most recent data
                 cooldowns[user_id_str] = datetime.now().isoformat()
                 save_cooldowns(cooldowns)
 
@@ -222,7 +218,6 @@ class RandomRoleView(discord.ui.View):
 # --- BACKGROUND TASKS ---
 @tasks.loop(minutes=1)
 async def check_role_expirations():
-    # (This function is already correct, no changes needed)
     await bot.wait_until_ready()
     now = datetime.now()
     expirations = load_role_expirations()
@@ -257,7 +252,6 @@ async def check_role_expirations():
 
 @tasks.loop(hours=24)
 async def daily_board_post():
-    # (This function is already correct, no changes needed)
     guild, channel = bot.get_guild(GUILD_ID), bot.get_channel(
         LEADERBOARD_CHANNEL_ID)
     if channel and guild:
@@ -274,7 +268,6 @@ async def daily_board_post():
 async def before_daily_post():
     await bot.wait_until_ready()
     now = datetime.now(timezone.utc)
-    ### --- FIX #2: ADD TZINFO TO TARGET_TIME --- ###
     target_time = time(0, 0, 0, tzinfo=timezone.utc)
     next_run = datetime.combine(now.date(), target_time)
     if now.time() > target_time: next_run += timedelta(days=1)
@@ -287,7 +280,6 @@ async def before_daily_post():
 
 # --- LEADERBOARD AND OTHER COMMANDS ---
 def generate_leaderboard_embed(guild: discord.Guild) -> discord.Embed:
-    # (This function is already correct, no changes needed)
     stats = load_player_stats()
     embed = discord.Embed(title="Gambling Core Leaderboard",
                           color=discord.Color.gold())
