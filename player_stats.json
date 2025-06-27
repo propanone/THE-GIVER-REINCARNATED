@@ -1,132 +1,162 @@
 {
-    "569924649417441291": {
-      "display_name": "propannone",
+  "569924649417441291": {
+      "display_name": "propanonne",
       "roles": {
-        "JACKPOT": 0,
-        "rak rajel lyom": 13,
-        "nta na9ch lyom": 8,
-        "NPC": 13,
-        "nta gay lyom": 10
+          "MRBAB": 0,
+          "Rajel": 13,
+          "Na9ch": 8,
+          "NPC": 13,
+          "Gay": 11
       }
-    },
-    "234048206487420934": {
+  },
+  "234048206487420934": {
       "display_name": "Spaghardo",
       "roles": {
-        "JACKPOT": 0,
-        "rak rajel lyom": 12,
-        "nta na9ch lyom": 9,
-        "NPC": 17,
-        "nta gay lyom": 16
+          "MRBAB": 0,
+          "Rajel": 12,
+          "Na9ch": 9,
+          "NPC": 17,
+          "Gay": 16
       }
-    },
-    "907108950430855210": {
-      "display_name": "sttingo chikour",
+  },
+  "907108950430855210": {
+      "display_name": "Sttingo",
       "roles": {
-        "JACKPOT": 0,
-        "rak rajel lyom": 2,
-        "nta na9ch lyom": 0,
-        "NPC": 1,
-        "nta gay lyom": 1
+          "MRBAB": 0,
+          "Rajel": 2,
+          "Na9ch": 0,
+          "NPC": 1,
+          "Gay": 1
       }
-    },
-    "485320253346283540": {
+  },
+  "485320253346283540": {
       "display_name": "Z1ko",
       "roles": {
-        "JACKPOT": 0,
-        "rak rajel lyom": 11,
-        "nta na9ch lyom": 9,
-        "NPC": 8,
-        "nta gay lyom": 8
+          "MRBAB": 0,
+          "Rajel": 11,
+          "Na9ch": 9,
+          "NPC": 9,
+          "Gay": 8
       }
-    },
-    "414022163042009088": {
-      "display_name": "Mr.Worldwide",
+  },
+  "414022163042009088": {
+      "display_name": "Ruglarman",
       "roles": {
-        "JACKPOT": 0,
-        "rak rajel lyom": 14,
-        "nta na9ch lyom": 18,
-        "NPC": 16,
-        "nta gay lyom": 13
+          "MRBAB": 0,
+          "Rajel": 14,
+          "Na9ch": 18,
+          "NPC": 16,
+          "Gay": 14
       }
-    },
-    "472188999021363215": {
+  },
+  "472188999021363215": {
       "display_name": "Wassim",
       "roles": {
-        "JACKPOT": 0,
-        "rak rajel lyom": 8,
-        "nta na9ch lyom": 10,
-        "NPC": 14,
-        "nta gay lyom": 16
+          "MRBAB": 0,
+          "Rajel": 8,
+          "Na9ch": 10,
+          "NPC": 14,
+          "Gay": 16
       }
-    },
-    "520661691483291690": {
-      "display_name": "Butchi",
+  },
+  "520661691483291690": {
+      "display_name": "\ud835\udc3c\ud835\udc47\ud835\udc34\ud835\udc36\ud835\udc3b\ud835\udc3c",
       "roles": {
-        "JACKPOT": 0,
-        "rak rajel lyom": 13,
-        "nta na9ch lyom": 12,
-        "NPC": 9,
-        "nta gay lyom": 12
+          "MRBAB": 0,
+          "Rajel": 13,
+          "Na9ch": 12,
+          "NPC": 10,
+          "Gay": 12
       }
-    },
-    "406366348285837322": {
+  },
+  "406366348285837322": {
       "display_name": "SELF",
       "roles": {
-        "JACKPOT": 0,
-        "rak rajel lyom": 1,
-        "nta na9ch lyom": 1,
-        "NPC": 2,
-        "nta gay lyom": 3
+          "MRBAB": 0,
+          "Rajel": 1,
+          "Na9ch": 1,
+          "NPC": 3,
+          "Gay": 3
       }
-    },
-    "721684728553668608": {
+  },
+  "721684728553668608": {
       "display_name": "Moh4t",
       "roles": {
-        "JACKPOT": 0,
-        "rak rajel lyom": 11,
-        "nta na9ch lyom": 15,
-        "NPC": 18,
-        "nta gay lyom": 17
+          "MRBAB": 0,
+          "Rajel": 11,
+          "Na9ch": 15,
+          "NPC": 18,
+          "Gay": 17
       }
-    },
-    "586548089502826507": {
-      "display_name": "!SISSOU",
+  },
+  "586548089502826507": {
+      "display_name": "SISSOU",
       "roles": {
-        "JACKPOT": 0,
-        "rak rajel lyom": 7,
-        "nta na9ch lyom": 11,
-        "NPC": 14,
-        "nta gay lyom": 6
+          "MRBAB": 0,
+          "Rajel": 7,
+          "Na9ch": 11,
+          "NPC": 14,
+          "Gay": 6
       }
-    },
-    "11": {
+  },
+  "11": {
       "display_name": "Blurry",
       "roles": {
-        "JACKPOT": 0,
-        "rak rajel lyom": 4,
-        "nta na9ch lyom": 3,
-        "NPC": 7,
-        "nta gay lyom": 9
+          "MRBAB": 0,
+          "Rajel": 4,
+          "Na9ch": 3,
+          "NPC": 7,
+          "Gay": 9
       }
-    },
-    "503171835438039051": {
+  },
+  "503171835438039051": {
       "display_name": "ImaDEVO",
       "roles": {
-        "JACKPOT": 0,
-        "rak rajel lyom": 5,
-        "nta na9ch lyom": 3,
-        "NPC": 1,
-        "nta gay lyom": 4
+          "MRBAB": 0,
+          "Rajel": 5,
+          "Na9ch": 3,
+          "NPC": 1,
+          "Gay": 4
       }
-    },
-    "893909768949874738": {
-      "display_name": "Moscow",
+  },
+  "893909768949874738": {
+      "display_name": "MosCow",
       "roles": {
-        "JACKPOT": 0,
-        "rak rajel lyom": 4,
-        "nta na9ch lyom": 15,
-        "NPC": 3,
-        "nta gay lyom": 9
+          "MRBAB": 0,
+          "Rajel": 5,
+          "Na9ch": 15,
+          "NPC": 3,
+          "Gay": 9
       }
-    }
+  },
+  "311167502279245825": {
+      "display_name": "s0haib",
+      "roles": {
+          "MRBAB": 0,
+          "Rajel": 0,
+          "NPC": 1,
+          "Gay": 1,
+          "Na9ch": 0
+      }
+  },
+  "1284442051928264811": {
+      "display_name": "K'",
+      "roles": {
+          "MRBAB": 0,
+          "Rajel": 1,
+          "NPC": 0,
+          "Gay": 0,
+          "Na9ch": 0
+      }
+  },
+  "762970440426586122": {
+      "display_name": "hacine",
+      "roles": {
+          "MRBAB": 0,
+          "Rajel": 0,
+          "NPC": 0,
+          "Gay": 0,
+          "Na9ch": 1
+      }
   }
+}
