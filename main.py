@@ -345,5 +345,5 @@ async def setup_panel_error(ctx: commands.Context,
 
 
 # --- RUN THE BOT ---
-keep_alive()
+#keep_alive()
 bot.run(TOKEN)
