@@ -329,8 +329,7 @@ async def board(ctx: commands.Context):
 @bot.command(name="rigl")
 async def setup_role_panel(ctx: commands.Context):
     await ctx.send(
-        "## 🎲 Are you read ?\n\n"
-        "Once every 24 hours, the wheel of destiny turns... Dare to click the button below and surrender your identity to the whims of chance. Your current role will be cast into oblivion — replaced by a new, unpredictable fate. Will you rise as a legend… or fall into obscurity? Only one way to find out.",
+        "## 🎲 Are you ready ?\n\n",
         view=RandomRoleView())
 
 
