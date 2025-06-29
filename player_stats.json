@@ -16,7 +16,7 @@
             "Rajel": 12,
             "Na9ch": 10,
             "NPC": 17,
-            "Gay": 16
+            "Gay": 17
         }
     },
     "907108950430855210": {
@@ -43,7 +43,7 @@
         "display_name": "Asuka Langley Soryu",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 14,
+            "Rajel": 15,
             "Na9ch": 18,
             "NPC": 16,
             "Gay": 15
@@ -55,7 +55,7 @@
             "MRBAB": 0,
             "Rajel": 9,
             "Na9ch": 10,
-            "NPC": 14,
+            "NPC": 15,
             "Gay": 16
         }
     },
@@ -75,7 +75,7 @@
             "MRBAB": 0,
             "Rajel": 2,
             "Na9ch": 1,
-            "NPC": 3,
+            "NPC": 4,
             "Gay": 3
         }
     },
@@ -124,7 +124,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 5,
-            "Na9ch": 15,
+            "Na9ch": 16,
             "NPC": 4,
             "Gay": 9
         }
