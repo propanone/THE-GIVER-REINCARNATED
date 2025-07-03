@@ -3,10 +3,10 @@
         "display_name": "propanonne",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 13,
+            "Rajel": 14,
             "Na9ch": 9,
             "NPC": 14,
-            "Gay": 11
+            "Gay": 12
         }
     },
     "234048206487420934": {
@@ -15,8 +15,8 @@
             "MRBAB": 0,
             "Rajel": 12,
             "Na9ch": 10,
-            "NPC": 18,
-            "Gay": 17
+            "NPC": 19,
+            "Gay": 18
         }
     },
     "907108950430855210": {
@@ -33,7 +33,7 @@
         "display_name": "Z1ko",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 12,
+            "Rajel": 13,
             "Na9ch": 9,
             "NPC": 10,
             "Gay": 8
@@ -43,7 +43,7 @@
         "display_name": "Asuka Langley Soryu",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 15,
+            "Rajel": 17,
             "Na9ch": 18,
             "NPC": 16,
             "Gay": 16
@@ -56,7 +56,7 @@
             "Rajel": 9,
             "Na9ch": 10,
             "NPC": 16,
-            "Gay": 16
+            "Gay": 18
         }
     },
     "520661691483291690": {
@@ -66,7 +66,7 @@
             "Rajel": 14,
             "Na9ch": 13,
             "NPC": 10,
-            "Gay": 13
+            "Gay": 15
         }
     },
     "406366348285837322": {
@@ -75,7 +75,7 @@
             "MRBAB": 0,
             "Rajel": 2,
             "Na9ch": 1,
-            "NPC": 4,
+            "NPC": 5,
             "Gay": 3
         }
     },
@@ -83,9 +83,9 @@
         "display_name": "Maximus Decimus Meridius",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 11,
+            "Rajel": 12,
             "Na9ch": 15,
-            "NPC": 18,
+            "NPC": 19,
             "Gay": 19
         }
     },
@@ -93,7 +93,7 @@
         "display_name": "!SISSOU",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 7,
+            "Rajel": 9,
             "Na9ch": 11,
             "NPC": 15,
             "Gay": 6
@@ -116,14 +116,14 @@
             "Rajel": 5,
             "Na9ch": 3,
             "NPC": 1,
-            "Gay": 5
+            "Gay": 7
         }
     },
     "893909768949874738": {
         "display_name": "MosCow",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 5,
+            "Rajel": 7,
             "Na9ch": 17,
             "NPC": 4,
             "Gay": 9
@@ -133,8 +133,8 @@
         "display_name": "s0haib",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 0,
-            "NPC": 1,
+            "Rajel": 1,
+            "NPC": 2,
             "Gay": 1,
             "Na9ch": 0
         }
@@ -146,7 +146,7 @@
             "Rajel": 1,
             "NPC": 0,
             "Gay": 0,
-            "Na9ch": 0
+            "Na9ch": 1
         }
     },
     "762970440426586122": {
@@ -161,6 +161,16 @@
     },
     "483209845693218816": {
         "display_name": "Blurry",
+        "roles": {
+            "MRBAB": 0,
+            "Rajel": 1,
+            "NPC": 0,
+            "Gay": 1,
+            "Na9ch": 0
+        }
+    },
+    "1074454296801857617": {
+        "display_name": "ZNT_ADEM_056",
         "roles": {
             "MRBAB": 0,
             "Rajel": 0,
