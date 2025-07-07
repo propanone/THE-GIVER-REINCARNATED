@@ -43,7 +43,7 @@
         "display_name": "Asuka Langley Soryu",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 17,
+            "Rajel": 18,
             "Na9ch": 19,
             "NPC": 16,
             "Gay": 17
@@ -63,7 +63,7 @@
         "display_name": "\ud835\udc3c\ud835\udc47\ud835\udc34\ud835\udc36\ud835\udc3b\ud835\udc3c",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 14,
+            "Rajel": 15,
             "Na9ch": 13,
             "NPC": 10,
             "Gay": 16
@@ -75,7 +75,7 @@
             "MRBAB": 0,
             "Rajel": 2,
             "Na9ch": 2,
-            "NPC": 5,
+            "NPC": 6,
             "Gay": 3
         }
     },
@@ -83,10 +83,10 @@
         "display_name": "Maximus Decimus Meridius",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 12,
+            "Rajel": 13,
             "Na9ch": 17,
             "NPC": 19,
-            "Gay": 19
+            "Gay": 20
         }
     },
     "586548089502826507": {
@@ -110,12 +110,12 @@
         }
     },
     "503171835438039051": {
-        "display_name": "imadevo",
+        "display_name": "imaDEVO",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 5,
+            "Rajel": 6,
             "Na9ch": 3,
-            "NPC": 1,
+            "NPC": 2,
             "Gay": 7
         }
     },
@@ -123,17 +123,17 @@
         "display_name": "MosCow",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 7,
+            "Rajel": 8,
             "Na9ch": 18,
             "NPC": 4,
-            "Gay": 9
+            "Gay": 10
         }
     },
     "311167502279245825": {
         "display_name": "s0haib",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 1,
+            "Rajel": 2,
             "NPC": 2,
             "Gay": 1,
             "Na9ch": 0
@@ -164,7 +164,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 1,
-            "NPC": 0,
+            "NPC": 1,
             "Gay": 1,
             "Na9ch": 0
         }
@@ -184,9 +184,19 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 0,
-            "NPC": 0,
+            "NPC": 1,
             "Gay": 0,
             "Na9ch": 2
+        }
+    },
+    "655779921553129514": {
+        "display_name": "ZENTICI onDAway",
+        "roles": {
+            "MRBAB": 0,
+            "Rajel": 0,
+            "NPC": 1,
+            "Gay": 0,
+            "Na9ch": 0
         }
     }
 }
