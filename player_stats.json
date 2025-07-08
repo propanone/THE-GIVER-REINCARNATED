@@ -5,7 +5,7 @@
             "MRBAB": 0,
             "Rajel": 15,
             "Na9ch": 9,
-            "NPC": 14,
+            "NPC": 15,
             "Gay": 13
         }
     },
@@ -13,7 +13,7 @@
         "display_name": "spaghardo",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 12,
+            "Rajel": 13,
             "Na9ch": 10,
             "NPC": 19,
             "Gay": 19
@@ -34,7 +34,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 14,
-            "Na9ch": 9,
+            "Na9ch": 10,
             "NPC": 10,
             "Gay": 8
         }
@@ -45,7 +45,7 @@
             "MRBAB": 0,
             "Rajel": 18,
             "Na9ch": 19,
-            "NPC": 16,
+            "NPC": 17,
             "Gay": 17
         }
     },
@@ -56,7 +56,7 @@
             "Rajel": 10,
             "Na9ch": 10,
             "NPC": 16,
-            "Gay": 19
+            "Gay": 20
         }
     },
     "520661691483291690": {
@@ -65,7 +65,7 @@
             "MRBAB": 0,
             "Rajel": 15,
             "Na9ch": 13,
-            "NPC": 10,
+            "NPC": 11,
             "Gay": 15
         }
     },
@@ -85,7 +85,7 @@
             "MRBAB": 0,
             "Rajel": 13,
             "Na9ch": 16,
-            "NPC": 19,
+            "NPC": 20,
             "Gay": 20
         }
     },
@@ -124,7 +124,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 8,
-            "Na9ch": 17,
+            "Na9ch": 18,
             "NPC": 4,
             "Gay": 10
         }
@@ -145,7 +145,7 @@
             "MRBAB": 0,
             "Rajel": 1,
             "NPC": 0,
-            "Gay": 0,
+            "Gay": 1,
             "Na9ch": 1
         }
     },
@@ -165,7 +165,7 @@
             "MRBAB": 0,
             "Rajel": 1,
             "NPC": 1,
-            "Gay": 1,
+            "Gay": 2,
             "Na9ch": 0
         }
     },
@@ -183,7 +183,7 @@
         "display_name": "Adem_ZNT",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 0,
+            "Rajel": 1,
             "NPC": 1,
             "Gay": 0,
             "Na9ch": 1
