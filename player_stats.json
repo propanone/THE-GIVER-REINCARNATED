@@ -5,7 +5,7 @@
             "MRBAB": 0,
             "Rajel": 15,
             "Na9ch": 9,
-            "NPC": 15,
+            "NPC": 16,
             "Gay": 13
         }
     },
@@ -16,7 +16,7 @@
             "Rajel": 13,
             "Na9ch": 10,
             "NPC": 20,
-            "Gay": 19
+            "Gay": 20
         }
     },
     "907108950430855210": {
@@ -34,7 +34,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 14,
-            "Na9ch": 10,
+            "Na9ch": 11,
             "NPC": 10,
             "Gay": 8
         }
@@ -45,7 +45,7 @@
             "MRBAB": 0,
             "Rajel": 18,
             "Na9ch": 19,
-            "NPC": 17,
+            "NPC": 19,
             "Gay": 17
         }
     },
@@ -54,7 +54,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 10,
-            "Na9ch": 10,
+            "Na9ch": 12,
             "NPC": 17,
             "Gay": 20
         }
@@ -64,7 +64,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 15,
-            "Na9ch": 13,
+            "Na9ch": 15,
             "NPC": 11,
             "Gay": 17
         }
@@ -73,7 +73,7 @@
         "display_name": "SELF",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 2,
+            "Rajel": 3,
             "Na9ch": 2,
             "NPC": 6,
             "Gay": 3
@@ -84,7 +84,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 13,
-            "Na9ch": 17,
+            "Na9ch": 19,
             "NPC": 20,
             "Gay": 20
         }
@@ -113,7 +113,7 @@
         "display_name": "imaDEVO",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 6,
+            "Rajel": 7,
             "Na9ch": 3,
             "NPC": 2,
             "Gay": 7
@@ -124,9 +124,9 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 8,
-            "Na9ch": 18,
+            "Na9ch": 19,
             "NPC": 4,
-            "Gay": 10
+            "Gay": 11
         }
     },
     "311167502279245825": {
@@ -185,7 +185,7 @@
             "MRBAB": 0,
             "Rajel": 1,
             "NPC": 1,
-            "Gay": 1,
+            "Gay": 2,
             "Na9ch": 2
         }
     },
