@@ -4,7 +4,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 15,
-            "Na9ch": 11,
+            "Na9ch": 12,
             "NPC": 16,
             "Gay": 14
         }
@@ -34,7 +34,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 15,
-            "Na9ch": 11,
+            "Na9ch": 12,
             "NPC": 10,
             "Gay": 8
         }
@@ -43,7 +43,7 @@
         "display_name": "Asuka Langley Soryu",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 18,
+            "Rajel": 19,
             "Na9ch": 22,
             "NPC": 19,
             "Gay": 17
@@ -56,7 +56,7 @@
             "Rajel": 10,
             "Na9ch": 13,
             "NPC": 17,
-            "Gay": 21
+            "Gay": 22
         }
     },
     "520661691483291690": {
@@ -64,7 +64,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 15,
-            "Na9ch": 16,
+            "Na9ch": 17,
             "NPC": 12,
             "Gay": 17
         }
@@ -83,7 +83,7 @@
         "display_name": "Maximus Decimus Meridius",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 13,
+            "Rajel": 14,
             "Na9ch": 20,
             "NPC": 22,
             "Gay": 20
@@ -94,7 +94,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 9,
-            "Na9ch": 11,
+            "Na9ch": 12,
             "NPC": 15,
             "Gay": 6
         }
@@ -113,7 +113,7 @@
         "display_name": "imaDEVO",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 7,
+            "Rajel": 8,
             "Na9ch": 3,
             "NPC": 2,
             "Gay": 9
@@ -124,7 +124,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 8,
-            "Na9ch": 20,
+            "Na9ch": 21,
             "NPC": 4,
             "Gay": 11
         }
@@ -186,7 +186,7 @@
             "Rajel": 2,
             "NPC": 2,
             "Gay": 2,
-            "Na9ch": 3
+            "Na9ch": 4
         }
     },
     "655779921553129514": {
