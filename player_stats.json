@@ -5,7 +5,7 @@
             "MRBAB": 0,
             "Rajel": 15,
             "Na9ch": 12,
-            "NPC": 16,
+            "NPC": 17,
             "Gay": 14
         }
     },
@@ -16,7 +16,7 @@
             "Rajel": 14,
             "Na9ch": 10,
             "NPC": 20,
-            "Gay": 22
+            "Gay": 23
         }
     },
     "907108950430855210": {
@@ -33,30 +33,30 @@
         "display_name": "Z1ko",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 15,
+            "Rajel": 16,
             "Na9ch": 12,
             "NPC": 10,
             "Gay": 8
         }
     },
     "414022163042009088": {
-        "display_name": "Asuka Langley Soryu",
+        "display_name": "Violet Evergarden",
         "roles": {
             "MRBAB": 0,
             "Rajel": 19,
             "Na9ch": 22,
-            "NPC": 19,
+            "NPC": 20,
             "Gay": 17
         }
     },
     "472188999021363215": {
-        "display_name": "\u062c\u0648\u0646\u064a \u0633\u064a\u0644\u0641\u0631 \u0647\u0627\u0646\u062f",
+        "display_name": "Sick Victorian Child",
         "roles": {
             "MRBAB": 0,
             "Rajel": 10,
             "Na9ch": 13,
             "NPC": 17,
-            "Gay": 22
+            "Gay": 23
         }
     },
     "520661691483291690": {
@@ -65,7 +65,7 @@
             "MRBAB": 0,
             "Rajel": 15,
             "Na9ch": 17,
-            "NPC": 12,
+            "NPC": 13,
             "Gay": 17
         }
     },
@@ -76,7 +76,7 @@
             "Rajel": 3,
             "Na9ch": 2,
             "NPC": 6,
-            "Gay": 4
+            "Gay": 5
         }
     },
     "721684728553668608": {
@@ -86,7 +86,7 @@
             "Rajel": 14,
             "Na9ch": 20,
             "NPC": 22,
-            "Gay": 20
+            "Gay": 21
         }
     },
     "586548089502826507": {
@@ -94,7 +94,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 9,
-            "Na9ch": 12,
+            "Na9ch": 13,
             "NPC": 15,
             "Gay": 6
         }
@@ -124,7 +124,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 8,
-            "Na9ch": 21,
+            "Na9ch": 22,
             "NPC": 4,
             "Gay": 11
         }
@@ -184,7 +184,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 2,
-            "NPC": 2,
+            "NPC": 3,
             "Gay": 2,
             "Na9ch": 4
         }

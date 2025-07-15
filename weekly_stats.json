@@ -6,14 +6,14 @@
             "Rajel": 0,
             "NPC": 0,
             "Gay": 0,
-            "Na9ch": 1
+            "Na9ch": 2
         }
     },
     "485320253346283540": {
         "display_name": "Z1ko",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 0,
+            "Rajel": 1,
             "NPC": 0,
             "Gay": 0,
             "Na9ch": 1
@@ -26,7 +26,7 @@
             "Rajel": 0,
             "NPC": 0,
             "Gay": 0,
-            "Na9ch": 1
+            "Na9ch": 2
         }
     },
     "503171835438039051": {
@@ -44,7 +44,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 0,
-            "NPC": 0,
+            "NPC": 1,
             "Gay": 0,
             "Na9ch": 1
         }
@@ -55,16 +55,16 @@
             "MRBAB": 0,
             "Rajel": 1,
             "NPC": 0,
-            "Gay": 0,
+            "Gay": 1,
             "Na9ch": 0
         }
     },
     "414022163042009088": {
-        "display_name": "Asuka Langley Soryu",
+        "display_name": "Violet Evergarden",
         "roles": {
             "MRBAB": 0,
             "Rajel": 1,
-            "NPC": 0,
+            "NPC": 1,
             "Gay": 0,
             "Na9ch": 0
         }
@@ -74,18 +74,18 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 0,
-            "NPC": 0,
+            "NPC": 1,
             "Gay": 0,
             "Na9ch": 1
         }
     },
     "472188999021363215": {
-        "display_name": "\u062c\u0648\u0646\u064a \u0633\u064a\u0644\u0641\u0631 \u0647\u0627\u0646\u062f",
+        "display_name": "Sick Victorian Child",
         "roles": {
             "MRBAB": 0,
             "Rajel": 0,
             "NPC": 0,
-            "Gay": 1,
+            "Gay": 2,
             "Na9ch": 0
         }
     },
@@ -94,9 +94,29 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 0,
-            "NPC": 0,
+            "NPC": 1,
             "Gay": 0,
             "Na9ch": 1
+        }
+    },
+    "234048206487420934": {
+        "display_name": "spaghardo",
+        "roles": {
+            "MRBAB": 0,
+            "Rajel": 0,
+            "NPC": 0,
+            "Gay": 1,
+            "Na9ch": 0
+        }
+    },
+    "406366348285837322": {
+        "display_name": "SELF",
+        "roles": {
+            "MRBAB": 0,
+            "Rajel": 0,
+            "NPC": 0,
+            "Gay": 1,
+            "Na9ch": 0
         }
     }
 }
