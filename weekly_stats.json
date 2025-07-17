@@ -24,7 +24,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 0,
-            "NPC": 0,
+            "NPC": 1,
             "Gay": 0,
             "Na9ch": 2
         }
@@ -45,7 +45,7 @@
             "MRBAB": 0,
             "Rajel": 0,
             "NPC": 1,
-            "Gay": 1,
+            "Gay": 2,
             "Na9ch": 1
         }
     },
@@ -55,7 +55,7 @@
             "MRBAB": 0,
             "Rajel": 2,
             "NPC": 0,
-            "Gay": 1,
+            "Gay": 2,
             "Na9ch": 0
         }
     },
@@ -73,7 +73,7 @@
         "display_name": "propanonne",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 0,
+            "Rajel": 1,
             "NPC": 2,
             "Gay": 0,
             "Na9ch": 1
@@ -85,7 +85,7 @@
             "MRBAB": 0,
             "Rajel": 0,
             "NPC": 0,
-            "Gay": 2,
+            "Gay": 3,
             "Na9ch": 1
         }
     },
@@ -105,7 +105,7 @@
             "MRBAB": 0,
             "Rajel": 0,
             "NPC": 1,
-            "Gay": 1,
+            "Gay": 2,
             "Na9ch": 0
         }
     },
