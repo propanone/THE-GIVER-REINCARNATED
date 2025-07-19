@@ -4,7 +4,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 16,
-            "Na9ch": 12,
+            "Na9ch": 13,
             "NPC": 19,
             "Gay": 14
         }
@@ -13,7 +13,7 @@
         "display_name": "spaghardo",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 14,
+            "Rajel": 15,
             "Na9ch": 10,
             "NPC": 21,
             "Gay": 25
@@ -34,7 +34,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 17,
-            "Na9ch": 12,
+            "Na9ch": 13,
             "NPC": 11,
             "Gay": 8
         }
@@ -46,7 +46,7 @@
             "Rajel": 20,
             "Na9ch": 22,
             "NPC": 20,
-            "Gay": 19
+            "Gay": 20
         }
     },
     "472188999021363215": {
@@ -54,7 +54,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 11,
-            "Na9ch": 14,
+            "Na9ch": 15,
             "NPC": 17,
             "Gay": 24
         }
@@ -65,7 +65,7 @@
             "MRBAB": 0,
             "Rajel": 15,
             "Na9ch": 17,
-            "NPC": 14,
+            "NPC": 15,
             "Gay": 19
         }
     },
@@ -85,7 +85,7 @@
             "MRBAB": 0,
             "Rajel": 15,
             "Na9ch": 20,
-            "NPC": 22,
+            "NPC": 23,
             "Gay": 23
         }
     },
@@ -114,7 +114,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 8,
-            "Na9ch": 5,
+            "Na9ch": 6,
             "NPC": 2,
             "Gay": 9
         }
@@ -124,7 +124,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 9,
-            "Na9ch": 22,
+            "Na9ch": 23,
             "NPC": 5,
             "Gay": 11
         }
@@ -135,7 +135,7 @@
             "MRBAB": 0,
             "Rajel": 3,
             "NPC": 2,
-            "Gay": 2,
+            "Gay": 3,
             "Na9ch": 0
         }
     },
@@ -143,7 +143,7 @@
         "display_name": "K'",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 1,
+            "Rajel": 2,
             "NPC": 1,
             "Gay": 1,
             "Na9ch": 1
@@ -184,7 +184,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 2,
-            "NPC": 3,
+            "NPC": 4,
             "Gay": 3,
             "Na9ch": 5
         }
