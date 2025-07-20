@@ -4,7 +4,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 0,
-            "NPC": 0,
+            "NPC": 1,
             "Gay": 1,
             "Na9ch": 1
         }
@@ -14,7 +14,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 0,
-            "NPC": 1,
+            "NPC": 2,
             "Gay": 0,
             "Na9ch": 0
         }
@@ -25,7 +25,7 @@
             "MRBAB": 0,
             "Rajel": 0,
             "NPC": 1,
-            "Gay": 0,
+            "Gay": 1,
             "Na9ch": 0
         }
     },
@@ -53,7 +53,7 @@
         "display_name": "Sick Victorian Child",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 0,
+            "Rajel": 1,
             "NPC": 0,
             "Gay": 1,
             "Na9ch": 0
@@ -64,7 +64,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 1,
-            "NPC": 0,
+            "NPC": 1,
             "Gay": 0,
             "Na9ch": 0
         }
@@ -75,7 +75,7 @@
             "MRBAB": 0,
             "Rajel": 1,
             "NPC": 0,
-            "Gay": 0,
+            "Gay": 1,
             "Na9ch": 0
         }
     },
@@ -84,7 +84,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 0,
-            "NPC": 1,
+            "NPC": 2,
             "Gay": 0,
             "Na9ch": 0
         }
@@ -93,7 +93,7 @@
         "display_name": "spaghardo",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 0,
+            "Rajel": 1,
             "NPC": 0,
             "Gay": 0,
             "Na9ch": 1
@@ -106,7 +106,7 @@
             "Rajel": 0,
             "NPC": 0,
             "Gay": 0,
-            "Na9ch": 1
+            "Na9ch": 2
         }
     },
     "485320253346283540": {
