@@ -3,7 +3,7 @@
         "display_name": "propanonne",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 16,
+            "Rajel": 17,
             "Na9ch": 13,
             "NPC": 19,
             "Gay": 14
@@ -14,7 +14,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 15,
-            "Na9ch": 10,
+            "Na9ch": 11,
             "NPC": 21,
             "Gay": 25
         }
@@ -35,7 +35,7 @@
             "MRBAB": 0,
             "Rajel": 17,
             "Na9ch": 13,
-            "NPC": 11,
+            "NPC": 12,
             "Gay": 8
         }
     },
@@ -45,7 +45,7 @@
             "MRBAB": 0,
             "Rajel": 20,
             "Na9ch": 22,
-            "NPC": 20,
+            "NPC": 21,
             "Gay": 20
         }
     },
@@ -56,14 +56,14 @@
             "Rajel": 11,
             "Na9ch": 15,
             "NPC": 17,
-            "Gay": 24
+            "Gay": 25
         }
     },
     "520661691483291690": {
         "display_name": "\ud835\udc3c\ud835\udc47\ud835\udc34\ud835\udc36\ud835\udc3b\ud835\udc3c",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 15,
+            "Rajel": 16,
             "Na9ch": 17,
             "NPC": 15,
             "Gay": 19
@@ -85,7 +85,7 @@
             "MRBAB": 0,
             "Rajel": 15,
             "Na9ch": 20,
-            "NPC": 23,
+            "NPC": 24,
             "Gay": 23
         }
     },
@@ -114,7 +114,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 8,
-            "Na9ch": 6,
+            "Na9ch": 7,
             "NPC": 2,
             "Gay": 9
         }
@@ -124,7 +124,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 9,
-            "Na9ch": 23,
+            "Na9ch": 24,
             "NPC": 5,
             "Gay": 11
         }
@@ -136,7 +136,7 @@
             "Rajel": 3,
             "NPC": 2,
             "Gay": 3,
-            "Na9ch": 0
+            "Na9ch": 1
         }
     },
     "1284442051928264811": {
@@ -180,11 +180,11 @@
         }
     },
     "901188915870969906": {
-        "display_name": "Adem_ZNT",
+        "display_name": "\u0627\u0644\u0634\u0645\u0642\u0645\u0642",
         "roles": {
             "MRBAB": 0,
             "Rajel": 2,
-            "NPC": 4,
+            "NPC": 5,
             "Gay": 3,
             "Na9ch": 5
         }
@@ -197,6 +197,16 @@
             "NPC": 1,
             "Gay": 0,
             "Na9ch": 0
+        }
+    },
+    "906556864194564097": {
+        "display_name": "sal",
+        "roles": {
+            "MRBAB": 0,
+            "Rajel": 0,
+            "NPC": 0,
+            "Gay": 0,
+            "Na9ch": 1
         }
     }
 }
