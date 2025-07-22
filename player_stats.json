@@ -3,7 +3,7 @@
         "display_name": "propanonne",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 18,
+            "Rajel": 19,
             "Na9ch": 13,
             "NPC": 20,
             "Gay": 14
@@ -14,7 +14,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 16,
-            "Na9ch": 12,
+            "Na9ch": 13,
             "NPC": 21,
             "Gay": 25
         }
@@ -36,14 +36,14 @@
             "Rajel": 18,
             "Na9ch": 13,
             "NPC": 12,
-            "Gay": 8
+            "Gay": 9
         }
     },
     "414022163042009088": {
         "display_name": "Violet Evergarden",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 20,
+            "Rajel": 21,
             "Na9ch": 22,
             "NPC": 22,
             "Gay": 21
@@ -55,7 +55,7 @@
             "MRBAB": 0,
             "Rajel": 12,
             "Na9ch": 16,
-            "NPC": 17,
+            "NPC": 18,
             "Gay": 25
         }
     },
@@ -64,7 +64,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 16,
-            "Na9ch": 17,
+            "Na9ch": 18,
             "NPC": 16,
             "Gay": 20
         }
@@ -85,7 +85,7 @@
             "MRBAB": 0,
             "Rajel": 15,
             "Na9ch": 21,
-            "NPC": 24,
+            "NPC": 25,
             "Gay": 24
         }
     },
@@ -124,7 +124,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 9,
-            "Na9ch": 26,
+            "Na9ch": 27,
             "NPC": 5,
             "Gay": 11
         }
@@ -136,7 +136,7 @@
             "Rajel": 3,
             "NPC": 4,
             "Gay": 3,
-            "Na9ch": 1
+            "Na9ch": 2
         }
     },
     "1284442051928264811": {
