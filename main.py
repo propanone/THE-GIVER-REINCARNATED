@@ -279,6 +279,67 @@ async def setup_role_panel(ctx: commands.Context):
 async def setup_panel_error(ctx: commands.Context, error: commands.CommandError):
     if isinstance(error, commands.MissingPermissions): await ctx.send("This should not happen, but you do not have permission to use this command.", delete_after=10); await ctx.message.delete()
 
+# --- NEW COMMAND ---
+@bot.command(name="chances", help="Shows the current gambling odds for each role.")
+async def chances(ctx: commands.Context):
+    """Calculates and displays the current probability of rolling each role."""
+    try:
+        # 1. Load the game state to get the pity counter
+        game_state = load_data(GAME_STATE_FILE)
+        plays_since_jackpot = game_state.get("plays_since_jackpot", 0)
+
+        # 2. Replicate the dynamic weight calculation from the button press
+        current_mrbab_weight = ROLE_CONFIG["MRBAB"]["weight"] + (plays_since_jackpot * MRBAB_WEIGHT_INCREASE)
+        weight_to_remove = current_mrbab_weight - ROLE_CONFIG["MRBAB"]["weight"]
+        other_roles = [r for r in ROLE_CONFIG if r != "MRBAB"]
+        loss_per_role = weight_to_remove / len(other_roles) if other_roles else 0
+
+        dynamic_weights = {}
+        for role_name, config in ROLE_CONFIG.items():
+            if role_name == "MRBAB":
+                dynamic_weights[role_name] = current_mrbab_weight
+            else:
+                # Ensure weight doesn't go below a minimum (e.g., 1)
+                dynamic_weights[role_name] = max(1, config["weight"] - loss_per_role)
+
+        # 3. Calculate total weight and percentages
+        total_weight = sum(dynamic_weights.values())
+        
+        chances_data = []
+        for role_name, weight in dynamic_weights.items():
+            percentage = (weight / total_weight) * 100
+            chances_data.append({"name": role_name, "weight": weight, "percentage": percentage})
+        
+        # Sort by percentage for readability
+        chances_data.sort(key=lambda x: x['percentage'], reverse=True)
+
+        # 4. Create the embed
+        embed = discord.Embed(
+            title="🎰 Current Gambling Odds",
+            description="Here are the real-time probabilities for your next roll. The chance for **MRBAB** increases with every community play that isn't a jackpot!",
+            color=discord.Color.dark_purple()
+        )
+        
+        # 5. Format and add the data to the embed
+        chances_string = ""
+        for item in chances_data:
+            role_name = item['name']
+            weight = item['weight']
+            percentage = item['percentage']
+            # Using 4 decimal places for percentages can be helpful for very low chances
+            chances_string += f"**{role_name}**: `{percentage:.4f}%` (Weight: {weight:.2f})\n"
+        
+        embed.add_field(name="Role Probabilities", value=chances_string, inline=False)
+        
+        embed.set_footer(text=f"The jackpot 'pity system' is currently at +{plays_since_jackpot} plays.")
+        
+        await ctx.send(embed=embed)
+
+    except Exception as e:
+        print(f"Error in !chances command: {e}")
+        await ctx.send("An error occurred while calculating the chances. Please check the bot logs.")
+# --- END NEW COMMAND ---
+
 def is_allowed_user():
     def predicate(ctx: commands.Context) -> bool: return ctx.author.id in SHUTDOWN_ALLOWED_USERS
     return commands.check(predicate)
