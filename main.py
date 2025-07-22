@@ -99,16 +99,36 @@ class RandomRoleView(discord.ui.View):
 
             game_state = load_data(GAME_STATE_FILE)
             plays_since_jackpot = game_state.get("plays_since_jackpot", 0)
+            
+            # Calculate dynamic weights
             current_mrbab_weight = ROLE_CONFIG["MRBAB"]["weight"] + (plays_since_jackpot * MRBAB_WEIGHT_INCREASE)
             weight_to_remove = current_mrbab_weight - ROLE_CONFIG["MRBAB"]["weight"]
             other_roles = [r for r in ROLE_CONFIG if r != "MRBAB"]
             loss_per_role = weight_to_remove / len(other_roles) if other_roles else 0
+            
             dynamic_weights = {}
             for role_name, config in ROLE_CONFIG.items():
-                if role_name == "MRBAB": dynamic_weights[role_name] = current_mrbab_weight
-                else: dynamic_weights[role_name] = max(1, config["weight"] - loss_per_role)
-            role_names, final_weights = list(dynamic_weights.keys()), [int(w) for w in dynamic_weights.values()]
-            chosen_role_name = random.choices(role_names, weights=final_weights, k=1)[0]
+                if role_name == "MRBAB":
+                    dynamic_weights[role_name] = current_mrbab_weight
+                else:
+                    dynamic_weights[role_name] = max(1, config["weight"] - loss_per_role)
+            
+            # Manually perform the weighted roll
+            total_weight = sum(dynamic_weights.values())
+            rolled_number = random.uniform(1, total_weight)
+
+            chosen_role_name = None
+            cumulative_weight = 0
+            # Sort by name to ensure consistent iteration order for calculating the winner
+            for role_name, weight in sorted(dynamic_weights.items()):
+                cumulative_weight += weight
+                if rolled_number <= cumulative_weight:
+                    chosen_role_name = role_name
+                    break
+            
+            if not chosen_role_name: # Failsafe
+                chosen_role_name = "NPC"
+
             chosen_role_id = ROLE_CONFIG[chosen_role_name]['id']
             role_to_add = interaction.guild.get_role(chosen_role_id)
             
@@ -137,14 +157,18 @@ class RandomRoleView(discord.ui.View):
                 
                 if chosen_role_name == "MRBAB":
                     game_state["plays_since_jackpot"] = 0
-                    jackpot_embed = discord.Embed(title="🎰🎰🎰  J A C K P O T  🎰🎰🎰", description=f"The long wait is over! After **{plays_since_jackpot + 1}** community plays, the jackpot has been hit!", color=discord.Color.gold())
+                    jackpot_embed = discord.Embed(
+                        title="🎰🎰🎰  J A C K P O T  🎰🎰🎰",
+                        description=f"You rolled a **{rolled_number:.2f}** (out of {total_weight:.2f})!\n\nThe long wait is over! After **{plays_since_jackpot + 1}** community plays, the jackpot has been hit!",
+                        color=discord.Color.gold()
+                    )
                     jackpot_embed.add_field(name="Congratulations to our new MRBAB!", value=f"**{user.mention}**", inline=False)
                     jackpot_embed.set_thumbnail(url="https://img.freepik.com/premium-photo/golden-jackpot-slot-machine-exciting-casino-win_1160504-6235.jpg")
                     jackpot_embed.set_footer(text="This winner is promised a 1 dollar gift from Moh4t")
                     await interaction.followup.send("@everyone", embed=jackpot_embed)
                 else:
                     game_state["plays_since_jackpot"] = plays_since_jackpot + 1
-                    await interaction.followup.send(f"Rigelha {user.mention}! Rak **{role_to_add.name}** lyoum!")
+                    await interaction.followup.send(f"You rolled a **{rolled_number:.2f}** (out of {total_weight:.2f})!\nRigelha {user.mention}! Rak **{role_to_add.name}** lyoum!")
                 
                 save_data(game_state, GAME_STATE_FILE)
             else:
@@ -229,19 +253,14 @@ async def weekly_highlights_post():
 @weekly_highlights_post.before_loop
 async def before_weekly_highlights():
     await bot.wait_until_ready()
-    # Schedule for Friday at 8 PM Algeria Time (19:00 UTC)
     now = datetime.now(timezone.utc)
-    # 0=Mon, 1=Tue, 2=Wed, 3=Thu, 4=Fri
-    target_weekday = 4 
+    target_weekday = 4 # Friday
     target_time = time(19, 0, 0, tzinfo=timezone.utc)
-    
     days_until_target = (target_weekday - now.weekday() + 7) % 7
     next_run_date = now.date() + timedelta(days=days_until_target)
-    
     next_run_datetime = datetime.combine(next_run_date, target_time)
     if now > next_run_datetime:
-        next_run_datetime += timedelta(weeks=1) # Use weeks=1 for clarity
-
+        next_run_datetime += timedelta(weeks=1)
     sleep_seconds = (next_run_datetime - now).total_seconds()
     print(f"Weekly highlights will be posted in {sleep_seconds / 3600:.2f} hours.")
     await asyncio.sleep(sleep_seconds)
@@ -267,6 +286,7 @@ def generate_leaderboard_embed(guild: discord.Guild) -> discord.Embed:
     embed.set_footer(text=f"Ranking uses a Loyalty Score (Total Points + {LOYALTY_WEIGHT} per play)")
     return embed
 
+# --- BOT COMMANDS ---
 @bot.command(name="board")
 async def board(ctx: commands.Context):
     await ctx.send(embed=generate_leaderboard_embed(ctx.guild))
@@ -277,18 +297,15 @@ async def setup_role_panel(ctx: commands.Context):
 
 @setup_role_panel.error
 async def setup_panel_error(ctx: commands.Context, error: commands.CommandError):
-    if isinstance(error, commands.MissingPermissions): await ctx.send("This should not happen, but you do not have permission to use this command.", delete_after=10); await ctx.message.delete()
+    if isinstance(error, commands.MissingPermissions): await ctx.send("You do not have permission to use this command.", delete_after=10); await ctx.message.delete()
 
-# --- NEW COMMAND ---
-@bot.command(name="chances", help="Shows the current gambling odds for each role.")
+@bot.command(name="chances", help="Shows the current gambling odds and roll ranges.")
 async def chances(ctx: commands.Context):
-    """Calculates and displays the current probability of rolling each role."""
+    """Calculates and displays the current probability and number ranges for each role."""
     try:
-        # 1. Load the game state to get the pity counter
         game_state = load_data(GAME_STATE_FILE)
         plays_since_jackpot = game_state.get("plays_since_jackpot", 0)
 
-        # 2. Replicate the dynamic weight calculation from the button press
         current_mrbab_weight = ROLE_CONFIG["MRBAB"]["weight"] + (plays_since_jackpot * MRBAB_WEIGHT_INCREASE)
         weight_to_remove = current_mrbab_weight - ROLE_CONFIG["MRBAB"]["weight"]
         other_roles = [r for r in ROLE_CONFIG if r != "MRBAB"]
@@ -299,38 +316,29 @@ async def chances(ctx: commands.Context):
             if role_name == "MRBAB":
                 dynamic_weights[role_name] = current_mrbab_weight
             else:
-                # Ensure weight doesn't go below a minimum (e.g., 1)
                 dynamic_weights[role_name] = max(1, config["weight"] - loss_per_role)
 
-        # 3. Calculate total weight and percentages
         total_weight = sum(dynamic_weights.values())
         
-        chances_data = []
-        for role_name, weight in dynamic_weights.items():
-            percentage = (weight / total_weight) * 100
-            chances_data.append({"name": role_name, "weight": weight, "percentage": percentage})
-        
-        # Sort by percentage for readability
-        chances_data.sort(key=lambda x: x['percentage'], reverse=True)
-
-        # 4. Create the embed
         embed = discord.Embed(
             title="🎰 Current Gambling Odds",
-            description="Here are the real-time probabilities for your next roll. The chance for **MRBAB** increases with every community play that isn't a jackpot!",
+            description=f"The system rolls a virtual die from **1 to {total_weight:.2f}**. Landing in a role's range wins that role.",
             color=discord.Color.dark_purple()
         )
         
-        # 5. Format and add the data to the embed
         chances_string = ""
-        for item in chances_data:
-            role_name = item['name']
-            weight = item['weight']
-            percentage = item['percentage']
-            # Using 4 decimal places for percentages can be helpful for very low chances
-            chances_string += f"**{role_name}**: `{percentage:.4f}%` (Weight: {weight:.2f})\n"
-        
-        embed.add_field(name="Role Probabilities", value=chances_string, inline=False)
-        
+        current_range_start = 1
+        # Sort by name to ensure consistent iteration order, matching the button logic
+        for role_name, weight in sorted(dynamic_weights.items()):
+            percentage = (weight / total_weight) * 100
+            range_end = current_range_start + weight - 1
+            
+            chances_string += f"**{role_name}**: `{percentage:.4f}%`\n"
+            chances_string += f"> Roll Range: **{current_range_start:.2f} - {range_end:.2f}** (Weight: {weight:.2f})\n"
+            
+            current_range_start = range_end + 1 # Note: For float, the next start is just after the previous end
+            
+        embed.add_field(name="Role Probabilities & Ranges", value=chances_string, inline=False)
         embed.set_footer(text=f"The jackpot 'pity system' is currently at +{plays_since_jackpot} plays.")
         
         await ctx.send(embed=embed)
@@ -338,7 +346,6 @@ async def chances(ctx: commands.Context):
     except Exception as e:
         print(f"Error in !chances command: {e}")
         await ctx.send("An error occurred while calculating the chances. Please check the bot logs.")
-# --- END NEW COMMAND ---
 
 def is_allowed_user():
     def predicate(ctx: commands.Context) -> bool: return ctx.author.id in SHUTDOWN_ALLOWED_USERS
@@ -367,5 +374,5 @@ async def shutdown_error(ctx: commands.Context, error: commands.CommandError):
     if isinstance(error, commands.CheckFailure): await ctx.send("You do not have permission to use this command.")
 
 # --- RUN THE BOT ---
-keep_alive()
+#keep_alive()
 bot.run(TOKEN)
