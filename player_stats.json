@@ -5,18 +5,18 @@
             "MRBAB": 0,
             "Rajel": 19,
             "Na9ch": 13,
-            "NPC": 20,
-            "Gay": 14
+            "NPC": 21,
+            "Gay": 15
         }
     },
     "234048206487420934": {
         "display_name": "spaghardo",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 16,
+            "Rajel": 17,
             "Na9ch": 13,
             "NPC": 21,
-            "Gay": 25
+            "Gay": 26
         }
     },
     "907108950430855210": {
@@ -35,27 +35,27 @@
             "MRBAB": 0,
             "Rajel": 18,
             "Na9ch": 13,
-            "NPC": 12,
-            "Gay": 9
+            "NPC": 13,
+            "Gay": 10
         }
     },
     "414022163042009088": {
         "display_name": "Violet Evergarden",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 21,
+            "Rajel": 22,
             "Na9ch": 22,
-            "NPC": 22,
+            "NPC": 23,
             "Gay": 21
         }
     },
     "472188999021363215": {
-        "display_name": "Sick Victorian Child",
+        "display_name": "\u062f\u0627\u0644\u0627\u0633",
         "roles": {
             "MRBAB": 0,
             "Rajel": 12,
-            "Na9ch": 16,
-            "NPC": 18,
+            "Na9ch": 17,
+            "NPC": 19,
             "Gay": 25
         }
     },
@@ -64,8 +64,8 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 16,
-            "Na9ch": 18,
-            "NPC": 16,
+            "Na9ch": 19,
+            "NPC": 17,
             "Gay": 20
         }
     },
@@ -73,7 +73,7 @@
         "display_name": "SELF",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 3,
+            "Rajel": 4,
             "Na9ch": 2,
             "NPC": 6,
             "Gay": 5
@@ -83,10 +83,10 @@
         "display_name": "Maximus Decimus Meridius",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 15,
+            "Rajel": 16,
             "Na9ch": 21,
             "NPC": 25,
-            "Gay": 24
+            "Gay": 25
         }
     },
     "586548089502826507": {
@@ -114,8 +114,8 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 8,
-            "Na9ch": 8,
-            "NPC": 3,
+            "Na9ch": 9,
+            "NPC": 4,
             "Gay": 9
         }
     },
@@ -123,9 +123,9 @@
         "display_name": "MosCow",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 9,
+            "Rajel": 10,
             "Na9ch": 27,
-            "NPC": 5,
+            "NPC": 6,
             "Gay": 11
         }
     },
@@ -133,9 +133,9 @@
         "display_name": "s0haib",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 3,
+            "Rajel": 4,
             "NPC": 4,
-            "Gay": 3,
+            "Gay": 4,
             "Na9ch": 2
         }
     },
@@ -183,7 +183,7 @@
         "display_name": "\ud83e\udd5a",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 2,
+            "Rajel": 4,
             "NPC": 6,
             "Gay": 3,
             "Na9ch": 6
@@ -193,7 +193,7 @@
         "display_name": "ZENTICI onDAway",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 0,
+            "Rajel": 1,
             "NPC": 1,
             "Gay": 0,
             "Na9ch": 0
