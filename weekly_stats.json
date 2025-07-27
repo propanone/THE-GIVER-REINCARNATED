@@ -1,1 +1,122 @@
-{}
+{
+    "472188999021363215": {
+        "display_name": "\u062f\u0627\u0644\u0627\u0633",
+        "roles": {
+            "MRBAB": 0,
+            "Rajel": 0,
+            "NPC": 0,
+            "Gay": 0,
+            "Na9ch": 1
+        }
+    },
+    "414022163042009088": {
+        "display_name": "Violet Evergarden",
+        "roles": {
+            "MRBAB": 0,
+            "Rajel": 0,
+            "NPC": 1,
+            "Gay": 0,
+            "Na9ch": 0
+        }
+    },
+    "503171835438039051": {
+        "display_name": "imaDEVO",
+        "roles": {
+            "MRBAB": 0,
+            "Rajel": 0,
+            "NPC": 0,
+            "Gay": 1,
+            "Na9ch": 0
+        }
+    },
+    "520661691483291690": {
+        "display_name": "\ud835\udc3c\ud835\udc47\ud835\udc34\ud835\udc36\ud835\udc3b\ud835\udc3c",
+        "roles": {
+            "MRBAB": 0,
+            "Rajel": 0,
+            "NPC": 0,
+            "Gay": 1,
+            "Na9ch": 0
+        }
+    },
+    "406366348285837322": {
+        "display_name": "SELF",
+        "roles": {
+            "MRBAB": 0,
+            "Rajel": 0,
+            "NPC": 0,
+            "Gay": 1,
+            "Na9ch": 0
+        }
+    },
+    "569924649417441291": {
+        "display_name": "propanonne",
+        "roles": {
+            "MRBAB": 0,
+            "Rajel": 0,
+            "NPC": 1,
+            "Gay": 0,
+            "Na9ch": 0
+        }
+    },
+    "901188915870969906": {
+        "display_name": "\ud83e\udd5a",
+        "roles": {
+            "MRBAB": 0,
+            "Rajel": 0,
+            "NPC": 1,
+            "Gay": 0,
+            "Na9ch": 0
+        }
+    },
+    "893909768949874738": {
+        "display_name": "MosCow",
+        "roles": {
+            "MRBAB": 0,
+            "Rajel": 1,
+            "NPC": 0,
+            "Gay": 0,
+            "Na9ch": 0
+        }
+    },
+    "234048206487420934": {
+        "display_name": "spaghardo",
+        "roles": {
+            "MRBAB": 0,
+            "Rajel": 0,
+            "NPC": 1,
+            "Gay": 0,
+            "Na9ch": 0
+        }
+    },
+    "721684728553668608": {
+        "display_name": "Maximus Decimus Meridius",
+        "roles": {
+            "MRBAB": 0,
+            "Rajel": 0,
+            "NPC": 0,
+            "Gay": 0,
+            "Na9ch": 1
+        }
+    },
+    "485320253346283540": {
+        "display_name": "Z1ko",
+        "roles": {
+            "MRBAB": 0,
+            "Rajel": 0,
+            "NPC": 1,
+            "Gay": 0,
+            "Na9ch": 0
+        }
+    },
+    "311167502279245825": {
+        "display_name": "s0haib",
+        "roles": {
+            "MRBAB": 0,
+            "Rajel": 1,
+            "NPC": 0,
+            "Gay": 0,
+            "Na9ch": 0
+        }
+    }
+}
