@@ -6,7 +6,7 @@
             "Rajel": 0,
             "NPC": 1,
             "Gay": 0,
-            "Na9ch": 1
+            "Na9ch": 2
         }
     },
     "414022163042009088": {
@@ -14,7 +14,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 1,
-            "NPC": 1,
+            "NPC": 2,
             "Gay": 0,
             "Na9ch": 0
         }
@@ -35,7 +35,7 @@
             "MRBAB": 0,
             "Rajel": 0,
             "NPC": 0,
-            "Gay": 2,
+            "Gay": 3,
             "Na9ch": 0
         }
     },
@@ -46,14 +46,14 @@
             "Rajel": 0,
             "NPC": 0,
             "Gay": 1,
-            "Na9ch": 0
+            "Na9ch": 1
         }
     },
     "569924649417441291": {
         "display_name": "propanonne",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 0,
+            "Rajel": 1,
             "NPC": 1,
             "Gay": 0,
             "Na9ch": 1
@@ -63,7 +63,7 @@
         "display_name": "\ud83e\udd5a",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 0,
+            "Rajel": 1,
             "NPC": 1,
             "Gay": 0,
             "Na9ch": 1
@@ -76,7 +76,7 @@
             "Rajel": 1,
             "NPC": 0,
             "Gay": 1,
-            "Na9ch": 0
+            "Na9ch": 1
         }
     },
     "234048206487420934": {
@@ -86,7 +86,7 @@
             "Rajel": 0,
             "NPC": 1,
             "Gay": 1,
-            "Na9ch": 0
+            "Na9ch": 1
         }
     },
     "721684728553668608": {
@@ -94,7 +94,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 0,
-            "NPC": 0,
+            "NPC": 1,
             "Gay": 1,
             "Na9ch": 1
         }
@@ -106,7 +106,7 @@
             "Rajel": 1,
             "NPC": 1,
             "Gay": 0,
-            "Na9ch": 0
+            "Na9ch": 1
         }
     },
     "311167502279245825": {
@@ -116,7 +116,7 @@
             "Rajel": 1,
             "NPC": 0,
             "Gay": 1,
-            "Na9ch": 0
+            "Na9ch": 1
         }
     }
 }

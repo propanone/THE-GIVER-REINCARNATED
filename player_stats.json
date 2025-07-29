@@ -3,7 +3,7 @@
         "display_name": "propanonne",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 19,
+            "Rajel": 20,
             "Na9ch": 14,
             "NPC": 23,
             "Gay": 15
@@ -14,7 +14,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 18,
-            "Na9ch": 13,
+            "Na9ch": 14,
             "NPC": 22,
             "Gay": 27
         }
@@ -34,7 +34,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 19,
-            "Na9ch": 13,
+            "Na9ch": 14,
             "NPC": 14,
             "Gay": 11
         }
@@ -45,7 +45,7 @@
             "MRBAB": 0,
             "Rajel": 23,
             "Na9ch": 22,
-            "NPC": 24,
+            "NPC": 25,
             "Gay": 22
         }
     },
@@ -54,7 +54,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 12,
-            "Na9ch": 18,
+            "Na9ch": 19,
             "NPC": 21,
             "Gay": 25
         }
@@ -66,7 +66,7 @@
             "Rajel": 16,
             "Na9ch": 19,
             "NPC": 17,
-            "Gay": 23
+            "Gay": 24
         }
     },
     "406366348285837322": {
@@ -74,7 +74,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 4,
-            "Na9ch": 2,
+            "Na9ch": 3,
             "NPC": 6,
             "Gay": 6
         }
@@ -85,7 +85,7 @@
             "MRBAB": 0,
             "Rajel": 17,
             "Na9ch": 22,
-            "NPC": 25,
+            "NPC": 26,
             "Gay": 26
         }
     },
@@ -124,7 +124,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 11,
-            "Na9ch": 28,
+            "Na9ch": 29,
             "NPC": 6,
             "Gay": 12
         }
@@ -136,7 +136,7 @@
             "Rajel": 5,
             "NPC": 4,
             "Gay": 5,
-            "Na9ch": 2
+            "Na9ch": 3
         }
     },
     "1284442051928264811": {
@@ -183,7 +183,7 @@
         "display_name": "\ud83e\udd5a",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 5,
+            "Rajel": 6,
             "NPC": 7,
             "Gay": 3,
             "Na9ch": 7
