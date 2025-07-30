@@ -6,7 +6,7 @@
             "Rajel": 20,
             "Na9ch": 14,
             "NPC": 23,
-            "Gay": 15
+            "Gay": 16
         }
     },
     "234048206487420934": {
@@ -16,7 +16,7 @@
             "Rajel": 18,
             "Na9ch": 14,
             "NPC": 22,
-            "Gay": 27
+            "Gay": 28
         }
     },
     "907108950430855210": {
@@ -35,7 +35,7 @@
             "MRBAB": 0,
             "Rajel": 19,
             "Na9ch": 14,
-            "NPC": 14,
+            "NPC": 15,
             "Gay": 11
         }
     },
@@ -43,7 +43,7 @@
         "display_name": "Violet Evergarden",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 23,
+            "Rajel": 24,
             "Na9ch": 22,
             "NPC": 25,
             "Gay": 22
@@ -54,9 +54,9 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 12,
-            "Na9ch": 19,
+            "Na9ch": 20,
             "NPC": 21,
-            "Gay": 25
+            "Gay": 26
         }
     },
     "520661691483291690": {
@@ -65,7 +65,7 @@
             "MRBAB": 0,
             "Rajel": 16,
             "Na9ch": 19,
-            "NPC": 17,
+            "NPC": 18,
             "Gay": 24
         }
     },
@@ -74,7 +74,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 4,
-            "Na9ch": 3,
+            "Na9ch": 4,
             "NPC": 6,
             "Gay": 6
         }
@@ -84,7 +84,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 17,
-            "Na9ch": 22,
+            "Na9ch": 23,
             "NPC": 26,
             "Gay": 26
         }
@@ -125,7 +125,7 @@
             "MRBAB": 0,
             "Rajel": 11,
             "Na9ch": 29,
-            "NPC": 6,
+            "NPC": 7,
             "Gay": 12
         }
     },
@@ -182,7 +182,7 @@
     "901188915870969906": {
         "display_name": "\ud83e\udd5a",
         "roles": {
-            "MRBAB": 0,
+            "MRBAB": 1,
             "Rajel": 6,
             "NPC": 7,
             "Gay": 3,
@@ -196,7 +196,7 @@
             "Rajel": 1,
             "NPC": 1,
             "Gay": 0,
-            "Na9ch": 0
+            "Na9ch": 1
         }
     },
     "906556864194564097": {
