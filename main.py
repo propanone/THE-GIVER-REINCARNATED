@@ -54,7 +54,7 @@ class MyBot(commands.Bot):
         intents = discord.Intents.default()
         intents.members = True
         intents.message_content = True
-        super().__init__(command_prefix="!", intents=intents)
+        super().__init__(command_prefix="!", intents=intents,case_insensitive=True)
     async def setup_hook(self):
         self.add_view(RandomRoleView())
         print("Persistent view added.")
