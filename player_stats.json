@@ -3,7 +3,7 @@
         "display_name": "propanonne",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 20,
+            "Rajel": 21,
             "Na9ch": 14,
             "NPC": 23,
             "Gay": 16
@@ -13,7 +13,7 @@
         "display_name": "spaghardo",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 18,
+            "Rajel": 19,
             "Na9ch": 14,
             "NPC": 22,
             "Gay": 28
@@ -36,7 +36,7 @@
             "Rajel": 19,
             "Na9ch": 14,
             "NPC": 15,
-            "Gay": 11
+            "Gay": 12
         }
     },
     "414022163042009088": {
@@ -44,7 +44,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 24,
-            "Na9ch": 22,
+            "Na9ch": 23,
             "NPC": 25,
             "Gay": 22
         }
@@ -66,7 +66,7 @@
             "Rajel": 16,
             "Na9ch": 19,
             "NPC": 18,
-            "Gay": 24
+            "Gay": 25
         }
     },
     "406366348285837322": {
@@ -84,7 +84,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 17,
-            "Na9ch": 23,
+            "Na9ch": 24,
             "NPC": 26,
             "Gay": 26
         }
@@ -113,7 +113,7 @@
         "display_name": "imaDEVO",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 8,
+            "Rajel": 9,
             "Na9ch": 9,
             "NPC": 4,
             "Gay": 10
@@ -134,7 +134,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 5,
-            "NPC": 4,
+            "NPC": 5,
             "Gay": 5,
             "Na9ch": 3
         }
@@ -170,10 +170,10 @@
         }
     },
     "1074454296801857617": {
-        "display_name": "ZNT_ADEM_056",
+        "display_name": "ADEM",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 0,
+            "Rajel": 1,
             "NPC": 0,
             "Gay": 1,
             "Na9ch": 0
