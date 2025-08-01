@@ -4,7 +4,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 0,
-            "NPC": 1,
+            "NPC": 2,
             "Gay": 1,
             "Na9ch": 3
         }
@@ -16,7 +16,7 @@
             "Rajel": 2,
             "NPC": 2,
             "Gay": 0,
-            "Na9ch": 1
+            "Na9ch": 2
         }
     },
     "503171835438039051": {
@@ -24,7 +24,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 1,
-            "NPC": 0,
+            "NPC": 1,
             "Gay": 1,
             "Na9ch": 0
         }
@@ -33,7 +33,7 @@
         "display_name": "\ud835\udc3c\ud835\udc47\ud835\udc34\ud835\udc36\ud835\udc3b\ud835\udc3c",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 0,
+            "Rajel": 1,
             "NPC": 1,
             "Gay": 4,
             "Na9ch": 0
@@ -56,7 +56,7 @@
             "Rajel": 2,
             "NPC": 1,
             "Gay": 1,
-            "Na9ch": 1
+            "Na9ch": 2
         }
     },
     "901188915870969906": {
@@ -74,7 +74,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 1,
-            "NPC": 1,
+            "NPC": 2,
             "Gay": 1,
             "Na9ch": 1
         }
@@ -86,14 +86,14 @@
             "Rajel": 1,
             "NPC": 1,
             "Gay": 2,
-            "Na9ch": 1
+            "Na9ch": 2
         }
     },
     "721684728553668608": {
         "display_name": "Maximus Decimus Meridius",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 0,
+            "Rajel": 1,
             "NPC": 1,
             "Gay": 1,
             "Na9ch": 3
@@ -103,7 +103,7 @@
         "display_name": "Z1ko",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 1,
+            "Rajel": 2,
             "NPC": 2,
             "Gay": 1,
             "Na9ch": 1
@@ -114,7 +114,7 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 1,
-            "NPC": 1,
+            "NPC": 2,
             "Gay": 1,
             "Na9ch": 1
         }
@@ -136,7 +136,7 @@
             "Rajel": 1,
             "NPC": 0,
             "Gay": 0,
-            "Na9ch": 0
+            "Na9ch": 1
         }
     }
 }
