@@ -6,10 +6,10 @@
             "Rajel": 22,
             "Na9ch": 16,
             "NPC": 24,
-            "Gay": 16
+            "Gay": 17
         },
-        "streak": 2,
-        "last_play_timestamp": "2025-08-03T12:43:30.100135"
+        "streak": 3,
+        "last_play_timestamp": "2025-08-04T13:58:42.233764"
     },
     "234048206487420934": {
         "display_name": "Silvio Manfred Dante",
@@ -18,10 +18,10 @@
             "Rajel": 20,
             "Na9ch": 16,
             "NPC": 23,
-            "Gay": 28
+            "Gay": 29
         },
-        "streak": 3,
-        "last_play_timestamp": "2025-08-03T17:04:43.421075"
+        "streak": 4,
+        "last_play_timestamp": "2025-08-04T14:46:06.898540"
     },
     "907108950430855210": {
         "display_name": "Sttingo",
@@ -38,24 +38,24 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 21,
-            "Na9ch": 15,
+            "Na9ch": 16,
             "NPC": 15,
             "Gay": 13
         },
-        "streak": 3,
-        "last_play_timestamp": "2025-08-03T16:13:03.262691"
+        "streak": 4,
+        "last_play_timestamp": "2025-08-04T12:25:18.669522"
     },
     "414022163042009088": {
         "display_name": "Furio Giunta",
         "roles": {
             "MRBAB": 0,
-            "Rajel": 24,
+            "Rajel": 25,
             "Na9ch": 26,
             "NPC": 26,
             "Gay": 22
         },
-        "streak": 2,
-        "last_play_timestamp": "2025-08-03T12:08:06.792590"
+        "streak": 3,
+        "last_play_timestamp": "2025-08-04T14:31:10.313158"
     },
     "472188999021363215": {
         "display_name": "\u062f\u0627\u0644\u0627\u0633",
@@ -63,23 +63,23 @@
             "MRBAB": 0,
             "Rajel": 13,
             "Na9ch": 21,
-            "NPC": 22,
+            "NPC": 23,
             "Gay": 27
         },
-        "streak": 2,
-        "last_play_timestamp": "2025-08-03T11:22:31.177024"
+        "streak": 3,
+        "last_play_timestamp": "2025-08-04T12:05:40.839681"
     },
     "520661691483291690": {
         "display_name": "\ud835\udc3c\ud835\udc47\ud835\udc34\ud835\udc36\ud835\udc3b\ud835\udc3c",
         "roles": {
             "MRBAB": 0,
             "Rajel": 19,
-            "Na9ch": 19,
+            "Na9ch": 20,
             "NPC": 19,
             "Gay": 25
         },
-        "streak": 2,
-        "last_play_timestamp": "2025-08-03T11:22:54.430831"
+        "streak": 3,
+        "last_play_timestamp": "2025-08-04T12:04:50.873359"
     },
     "406366348285837322": {
         "display_name": "SELF",
@@ -98,12 +98,12 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 19,
-            "Na9ch": 24,
+            "Na9ch": 25,
             "NPC": 28,
             "Gay": 26
         },
-        "streak": 3,
-        "last_play_timestamp": "2025-08-03T15:23:21.869880"
+        "streak": 4,
+        "last_play_timestamp": "2025-08-04T15:34:40.407348"
     },
     "586548089502826507": {
         "display_name": "!SISSOU",
@@ -142,12 +142,12 @@
         "roles": {
             "MRBAB": 0,
             "Rajel": 13,
-            "Na9ch": 29,
+            "Na9ch": 30,
             "NPC": 9,
             "Gay": 12
         },
-        "streak": 3,
-        "last_play_timestamp": "2025-08-03T22:44:28.704424"
+        "streak": 4,
+        "last_play_timestamp": "2025-08-04T21:08:01.376542"
     },
     "311167502279245825": {
         "display_name": "s0haib",
@@ -239,10 +239,10 @@
             "MRBAB": 0,
             "Rajel": 0,
             "NPC": 1,
-            "Gay": 0,
+            "Gay": 1,
             "Na9ch": 0
         },
-        "streak": 1,
-        "last_play_timestamp": "2025-08-03T15:38:17.920068"
+        "streak": 2,
+        "last_play_timestamp": "2025-08-04T17:50:14.597321"
     }
 }
