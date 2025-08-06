@@ -647,14 +647,9 @@ async def board(ctx: commands.Context):
     await ctx.send(embed=generate_leaderboard_embed(ctx.guild))
 
 @bot.command(name="rigl", help="Posts the main gambling panel.")
-@commands.has_permissions(administrator=False)
 async def setup_role_panel(ctx: commands.Context):
     await ctx.send("## 🎲 Are you ready ?\n\n", view=RandomRoleView())
 
-@setup_role_panel.error
-async def setup_panel_error(ctx: commands.Context, error: commands.CommandError):
-    if isinstance(error, commands.CheckFailure):
-        await ctx.send("This command is restricted to administrators.")
 
 @bot.command(name="chances", help="Shows the current gambling odds and roll ranges.")
 async def chances(ctx: commands.Context):
