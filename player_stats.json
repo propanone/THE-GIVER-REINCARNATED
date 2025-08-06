@@ -39,7 +39,7 @@
             "MRBAB": 0,
             "Rajel": 21,
             "Na9ch": 16,
-            "NPC": 15,
+            "NPC": 16,
             "Gay": 14
         },
         "streak": 5,
@@ -240,7 +240,7 @@
             "Rajel": 0,
             "NPC": 1,
             "Gay": 1,
-            "Na9ch": 1
+            "Na9ch": 2
         },
         "streak": 3,
         "last_play_timestamp": "2025-08-05T19:40:01.243152"
