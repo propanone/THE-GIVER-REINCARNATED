@@ -1,3 +1,4 @@
 {
-    "plays_since_jackpot": 60
+    "plays_since_jackpot": 60,
+    "dev_mode": false
 }
