@@ -12,7 +12,9 @@
         "active_items": {}
     },
     "414022163042009088": {
-        "active_items": {}
+        "active_items": {
+            "safety": 1
+        }
     },
     "569924649417441291": {
         "active_items": {}
