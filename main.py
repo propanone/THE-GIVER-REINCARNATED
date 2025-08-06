@@ -1093,4 +1093,4 @@ async def shutdown_error(ctx: commands.Context, error: commands.CommandError):
 
 # --- RUN THE BOT ---
 #keep_alive()
-bot.run(TOKEN)
+#bot.run(TOKEN)
