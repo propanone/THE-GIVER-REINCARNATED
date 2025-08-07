@@ -1,3 +1,6 @@
 {
-    "plays_since_jackpot": 63
+    "plays_since_jackpot": 68,
+    "dev_mode": false,
+    "active_event": "lucky_hour",
+    "event_end_time": "2025-08-07T12:56:16.894149"
 }
